@@ -21,4 +21,5 @@ Friends of Pump House is a volunteer and restoration group conducting tours of t
 | Week | Tasks | Goals |
 |------|-------|-------|
 | _Week 1_ | _Task 1_ | _Goal 1_ |
+| _Week 2_ | _Explore Unity_ | _Understand the basics of Unity_ |
 | ... | ... | ... |
