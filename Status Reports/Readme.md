@@ -10,7 +10,7 @@ Status Report Template: https://github.com/VCU-CS-Capstone/0000---Capstone-Templ
 | Document | Tasks | Accomplishments | Issues |
 |---|---|---|---|
 | Project Plan | Overall week by week plan of milestones | | |
-| Week 1 Status Report | | | |
+| Week 1 Status Report | Setup a form of communication, meet with faculty advisor | Created Discord Channel, had Zoom meeting with team members and Dr. Leonard | Finding who our sponsor is |
 | Week 2 Status Report | | | |
 | Week 3 Status Report | | | |
 | Week 4 Status Report | | | |
