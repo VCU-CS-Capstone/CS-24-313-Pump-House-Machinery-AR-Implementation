@@ -10,9 +10,9 @@ Status Report Template: https://github.com/VCU-CS-Capstone/0000---Capstone-Templ
 | Document | Tasks | Accomplishments | Issues |
 |---|---|---|---|
 | Project Plan | Overall week by week plan of milestones | | |
-| Week 1 Status Report | Setup a form of communication, meet with faculty advisor | Created Discord Channel, had Zoom meeting with team members and Dr. Leonard | Finding who our sponsor is |
-| Week 2 Status Report | | | |
-| Week 3 Status Report | | | |
+| Week 1 Status Report | Setup a form of communication, meet with faculty advisor | Created Discord Channel, had Zoom meeting with team members and Dr. Leonard | Get name and contact information of sponsor from Friends of Pump House|
+| Week 2 Status Report | Contact Friends of Pump House to find out Sponsors name and contact information | Email sent to secretary@friendsofpumphouse.org | Waiting on response|
+| Week 3 Status Report | Setup meeting with Mac Wood from Friends of Pump House | Proposed Zoom meeting with Mac for 9/18/23| Waiting for a response |
 | Week 4 Status Report | | | |
 | Week 5 Status Report | | | |
 | Week 6 Status Report | | | |
