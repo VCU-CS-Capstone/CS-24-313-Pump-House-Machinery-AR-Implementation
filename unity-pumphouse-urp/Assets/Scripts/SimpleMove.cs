@@ -23,9 +23,10 @@ public class SimpleMove : MonoBehaviour
     void Start()
     {
         characterController = GetComponent<CharacterController>();
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.None; // Unlock the cursor
+        Cursor.visible = true; // Make the cursor visible
     }
+
 
     void Update()
     {
@@ -63,9 +64,15 @@ public class SimpleMove : MonoBehaviour
             rotationX = Mathf.Clamp(rotationX, -lookXLimit, lookXLimit);
             playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
 
-            // Apply horizontal rotation directly to the camera around the Y-axis
+            // Apply horizontal rotation to the player object around the Y-axis
             float rotationY = Input.GetAxis("Mouse X") * lookSpeed;
-            playerCamera.transform.Rotate(0, rotationY, 0);
+            transform.Rotate(0, rotationY, 0);
+
+            // Ensure the global Y rotation of the playerCamera remains consistent
+            Vector3 currentRotation = playerCamera.transform.eulerAngles;
+            playerCamera.transform.eulerAngles = new Vector3(currentRotation.x, transform.eulerAngles.y, currentRotation.z);
+
         }
     }
+
 }

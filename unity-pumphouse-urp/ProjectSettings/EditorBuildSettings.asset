@@ -11,9 +11,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Meeting Demo.unity
     guid: 9b5596372b9db574d87fbe0b3009a0e8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/WebGl Demo.unity
     guid: afb75c2e7dd38b44896183d1767e717b
+  - enabled: 1
+    path: Assets/Scenes/All Floors.unity
+    guid: 5e9640f1f09c4194ab2e39e09574ac93
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 27c1b582b9ade69498b80c047b9b156b,
       type: 2}
