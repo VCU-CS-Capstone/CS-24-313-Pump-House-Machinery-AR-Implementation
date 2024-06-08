@@ -6,6 +6,11 @@ public class AnimatorController : MonoBehaviour
 {
     // array of animators that we reference in the inspector
     public Animator[] animators;
+    public AudioSource[] audioSources;
+
+    [SerializeField]
+    private float fadeDuration = 3.0f; // Duration of the fade in seconds
+    private float targetVolume;
 
     //public PlayerAudioOnTriggerEnter playerAudioOnTriggerEnter;
     // method to start animators
@@ -17,7 +22,11 @@ public class AnimatorController : MonoBehaviour
             animator.SetTrigger("StartAnimation"); 
             // Replace "StartAnimation" with the actual trigger name in your Animator Controller.
         }
-        //playerAudioOnTriggerEnter.setIsAnim(true);
+        foreach (AudioSource audioSource in audioSources)
+        {
+            audioSource.Play();
+        }
+        
     }
     
     // method to stop animators
@@ -28,6 +37,11 @@ public class AnimatorController : MonoBehaviour
             animator.ResetTrigger("StartAnimation"); // Replace "StartAnimation" with the actual trigger name in your Animator Controller.
             animator.SetTrigger("StopAnimation"); // Create a "StopAnimation" trigger in your Animator Controller.
         }
-        //playerAudioOnTriggerEnter.setIsAnim(false);
+        foreach (AudioSource audioSource in audioSources)
+        {
+            audioSource.Stop();
+        }
     }
+    
+    
 }
